@@ -5,7 +5,7 @@ function mainIndex(){
     for (const articleItem of articleArray) {
 
         // get main article body 
-        divPerArticle +=  `<div><h2 class="categoryHeading">`+articleItem[1].category+`</h2>`;
+        divPerArticle +=  `<h2 class="categoryHeading">`+articleItem[1].category+`</h2><div class='gridArticle'>`;
 
         // console.log(divPerArticle)
         for (let index = 0; index < articleItem.length; index++) {
@@ -29,8 +29,9 @@ function mainIndex(){
                     <span>continue reading</span>
                 </div>
             </div>`
-            divPerArticle += `<div>`
+            
         }
+        divPerArticle += `</div>`
     }
     document.getElementById('articleBody').innerHTML = divPerArticle;
 }
