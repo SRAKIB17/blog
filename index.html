@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+
+</head>
+<body>
+    <header>
+        <div id="nav">
+             <img src="images/logo.png" alt="">
+
+            <div class="search">
+                <div id="search">
+                    <input type="search"  class="search-input" id="search-input" placeholder="Search Product" value="">
+                </div>
+                <button class="btn bg-primary" id="SearchIcon"><i class="fa fa-search"></i></button>
+            </div>
+            <div id="result">
+                <div id="busy">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="articleBody">
+
+    </section>
+    <script>
+        let aa = document.getElementsByTagName('p')
+        for (let index = 0; index < aa.length; index++) {
+            aa[index].setAttribute('id','par'+index)
+            
+        }
+        let searchQ = ''
+        document.getElementById('search-input').addEventListener('keyup', function(event){
+            searchQ = event.target.value;
+            string(searchQ)
+    
+        })
+        function string(searchBody){
+            var tex = searchBody;
+            let getNodes = document.body.querySelectorAll('p');
+            // console.log(getNodes)
+            for (let index = 0; index < getNodes.length; index++) {
+                // console.log(get[index])
+                let innerHTML = getNodes[index];
+                // console.log(innerHTML)
+                let get = getNodes[index].innerText;
+                // console.log(get)
+                if (get.search(tex)>= 0){
+                    let Index = get.search(tex);
+                    let sliceText = get.slice(Index, Index+tex.length);
+                    let splitText = get.split(sliceText);
+                    let joinSplit = splitText.join("<span class='highlight'>"+sliceText+ "</span>");
+                    innerHTML.innerHTML = joinSplit;
+                    // console.log(joinSplit)
+                }
+                
+            }
+            
+        }
+      
+    </script>
+    <!-- script section  -->
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/search.js"></script>
+</body>
+</html>

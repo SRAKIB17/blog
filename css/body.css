@@ -1,0 +1,36 @@
+body {
+    background-color: hsl(220, 47%, 93%);
+    overflow-x: hidden;
+    width: 100%;
+}
+.categoryHeading {
+    padding-left: 12px;
+}
+.mainArticle {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px whitesmoke;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #D8E1F0;
+}
+.col-span-2 {
+    grid-column: span 2/span 2;
+}
+.articleImage {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.title {
+    padding-left: 10px;
+}
+.date {
+    color: rgb(96, 98, 104);
+    font-size: small;
+    padding-left: 15px;
+}
+.tag {
+    font-size: medium;
+}
