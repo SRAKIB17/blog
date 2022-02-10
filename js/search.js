@@ -22,7 +22,7 @@ document.getElementById('search-input').addEventListener('keyup', function(event
     document.getElementById('busy').innerHTML = wait;
     searchQ = event.target.value;
     setTimeout(resultReturn,1000)
-    
+
 })
 
 
@@ -87,7 +87,6 @@ function resultReturn(){
                             +getArticle.category+`
                         </td>
                     </tr>`
-                console.log(text)
                 
             }
 
@@ -127,7 +126,7 @@ function resultReturn(){
         }
     }
     resultShow += `</table>`
+    console.log(resultShow)
     document.getElementById('busy').innerHTML = resultShow;
-    return searchResult = []
 }
 

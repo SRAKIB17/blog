@@ -22,7 +22,7 @@ body {
     justify-items: stretch;
 }
 .mainArticle:hover {
-    transform: scale(1.1) scaleZ(-1.1) translate(0px, -15px);
+    transform: scaleZ(-1.1) translate(0px, -15px);
     transition: all 400ms ease-in-out;
 }
 .col-span-2 {
@@ -100,5 +100,8 @@ body {
     }
     #navBarClose {
         display: none;
+    }
+    #result {
+        top: 90px;
     }
 }
