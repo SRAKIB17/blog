@@ -2,7 +2,7 @@ body {
     background-color: hsl(220, 47%, 93%);
     overflow-x: hidden;
     width: 100%;
-    padding: 15px;
+    padding: 15px -20px;
 }
 .categoryHeading {
     padding-left: 12px;

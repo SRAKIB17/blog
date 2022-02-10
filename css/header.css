@@ -1,7 +1,4 @@
 
-body {
-    overflow-x: hidden;
-}
 #nav {
     width: 100%;
     background-image: linear-gradient(to left top, rgb(0, 225, 255) ,rgb(115, 255, 0));
