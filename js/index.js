@@ -21,6 +21,7 @@ function mainIndex(){
                     <h3 class='title'>`+
                         article.title
                     +`</h3>
+                    <h5>`+article.author+`</h5>
                     <span class='date'>Date:`+article.Date+` in</span> <span class='tag'>`+article.tag+`</span>
                 </div>
                 <div class="col-span-2"><p>`+

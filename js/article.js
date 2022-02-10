@@ -8,7 +8,8 @@ let laptopProduct = [
         tag: 5,
         title: 'MSI Modern 15 A11MU Core i5 11th Gen 15.6" FHD Laptop',
         article:'Processor: Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)Memory: 8GB DDR4 3200MHz RAM Storage: 512GB NVMe PCIe Gen3x4 SSD 15.6" FHD (1920x1080) Display',
-        category: 'Laptop'
+        category: 'Laptop',
+        author: 'rakib'
     },
     {
         Image: 'gf63-thin-01-228x228.jpg',
@@ -16,7 +17,8 @@ let laptopProduct = [
         tag:50,
         title: 'MSI GF63 THIN 11SC Core i5 11th Gen GTX 1650 4GB Graphics 15.6" FHD Gaming Laptop',
         article:'Intel Core i5-11400H Processor (12M Cache, 2.70 GHz up to 4.50 GHz)8GB DDR4 3200MHz RAM512GB NVMe PCIe Gen3x4 SSDNVIDIA GTX 1650 4GB GDDR6 Graphics',
-        category: 'Laptop'
+        category: 'Laptop',
+        author: 'rakib'
     },
     {
         Image: 'modern-15-01-228x228.jpg',
@@ -24,7 +26,8 @@ let laptopProduct = [
         tag:5,
         title: 'MSI Modern 15 A11SB Core i5 11th Gen MX450 2GB Graphics 15.6" FHD Gaming Laptop',
         article:'Intel Core i5-1135G7 Processor (8M Cache, 2.40 GHz up to 4.20 GHz) 8GB DDR4 2666MHz RAM 512GB NVMe PCIe Gen3x4 SSD GeForce MX450 2GB Graphics',
-        category: 'Laptop'
+        category: 'Laptop',
+        author: 'rakib'
     }
 ]
 /*=---------------------
@@ -37,7 +40,8 @@ let WomenjacketProduct = [
         tag: 5,
         title: 'Yellow Coat Jacket ',
         article:'Processor: Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)Memory: 8GB DDR4 3200MHz RAM Storage: 512GB NVMe PCIe Gen3x4 SSD 15.6" FHD (1920x1080) Display',
-        category: 'Women Jacket'
+        category: 'Women Jacket',
+        author: 'rakib'
     },
     {
         Image: 'jacket-2.png',
@@ -45,7 +49,8 @@ let WomenjacketProduct = [
         tag:50,
         title: 'Ladies Jacket',
         article:'Bfjdsodsfdlskjd<br>sdsgjfsdotgfsdtgifsdjljgfdjgfdglfdjgfd<br>lgjfdgjfdgfdjgj',
-        category: 'Women Jacket'
+        category: 'Women Jacket',
+        author: 'rakib'
     },
     {
         Image: 'jacket-3.png',
@@ -53,7 +58,8 @@ let WomenjacketProduct = [
         tag:5,
         title: 'Woman Leather Jacket',
         article:'IntgfdgfgggfgfgfgCIe Gen3x4 SSD GeForce MX450 2GB Graphics',
-        category: 'Women Jacket'
+        category: 'Women Jacket',
+        author: 'rakib'
     }
 ]
 /*=---------------------
@@ -66,7 +72,8 @@ let ManjacketProduct = [
         tag: 5,
         title: 'nowboard Jacket Mens',
         article:'Processor: Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)Memory: 8GB DDR4 3200MHz RAM Storage: 512GB NVMe PCIe Gen3x4 SSD 15.6" FHD (1920x1080) Display',
-        category: 'Man Jacket'
+        category: 'Man Jacket',
+        author: 'rakib'
     },
     {
         Image: 'jacket-5.png',
@@ -74,7 +81,8 @@ let ManjacketProduct = [
         tag:50,
         title: 'Man Leather Jacket',
         article:'Bfjdsodsfdlskjd<br>sdsgjfsdotgfsdtgifsdjljgfdjgfdglfdjgfd<br>lgjfdgjfdgfdjgj',
-        category: 'Man Jacket'
+        category: 'Man Jacket',
+        author: 'rakib'
     },
     {
         Image: 'jacket-6.png',
@@ -82,7 +90,8 @@ let ManjacketProduct = [
         tag:5,
         title: 'Man Casual Jacket',
         article:'IntgfdgfgggfgfgfgCIe Gen3x4 SSD GeForce MX450 2GB Graphics',
-        category: 'Man Jacket'
+        category: 'Man Jacket',
+        author: 'rakib'
     }
 ]
 /*=---------------------
@@ -95,7 +104,8 @@ let shoesProduct = [
         tag: 5,
         title: 'nowboard Jacket Mens',
         article:'Processor: Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)Memory: 8GB DDR4 3200MHz RAM Storage: 512GB NVMe PCIe Gen3x4 SSD 15.6" FHD (1920x1080) Display',
-        category: 'Shoes'
+        category: 'Shoes',
+        author: 'rakib'
     },
     {
         Image: 'shoe-2.png',
@@ -103,7 +113,8 @@ let shoesProduct = [
         tag:50,
         title: 'Man Leather Jacket',
         article:'Bfjdsodsfdlskjd<br>sdsgjfsdotgfsdtgifsdjljgfdjgfdglfdjgfd<br>lgjfdgjfdgfdjgj',
-        category: 'Shoes'
+        category: 'Shoes',
+        author: 'rakib'
     },
     {
         Image: 'shoe-3.png',
@@ -111,7 +122,8 @@ let shoesProduct = [
         tag:5,
         title: 'Man Casual Jacket',
         article:'IntgfdgfgggfgfgfgCIe Gen3x4 SSD GeForce MX450 2GB Graphics',
-        category: 'Shoes'
+        category: 'Shoes',
+        author: 'rakib'
     }
 ]
 /*=---------------------
@@ -124,7 +136,8 @@ let bagsProduct = [
         tag: 5,
         title: 'nowboard Jacket Mens',
         article:'Processor: Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz)Memory: 8GB DDR4 3200MHz RAM Storage: 512GB NVMe PCIe Gen3x4 SSD 15.6" FHD (1920x1080) Display',
-        category: 'Bags'
+        category: 'Bags',
+        author: 'rakib'
     },
     {
         Image: 'bag-2.png',
@@ -132,7 +145,8 @@ let bagsProduct = [
         tag:50,
         title: 'Man Leather Jacket',
         article:'Bfjdsodsfdlskjd<br>sdsgjfsdotgfsdtgifsdjljgfdjgfdglfdjgfd<br>lgjfdgjfdgfdjgj',
-        category: 'Bags'
+        category: 'Bags',
+        author: 'rakib'
     },
     {
         Image: 'bag-3.png',
@@ -140,7 +154,8 @@ let bagsProduct = [
         tag:5,
         title: 'Man Casual Jacket',
         article:'IntgfdgfgggfgfgfgCIe Gen3x4 SSD GeForce MX450 2GB Graphics',
-        category: 'Bags'
+        category: 'Bags',
+        author: 'rakib'
     }
 ]
 var articleArray = [laptopProduct, WomenjacketProduct, ManjacketProduct,shoesProduct,bagsProduct];
