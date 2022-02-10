@@ -7,5 +7,7 @@ document.getElementById('navBar').addEventListener('click', function(){
 })
 document.getElementById('navBarClose').addEventListener('click',function(){
     getNavBar.style.display = 'none'
-    getNavBar.style.animation = 'close-nav 500ms ease-in-out 1'
+    // getNavBar.style.animation = 'close-nav 500ms ease-in-out 1'
 })
+
+

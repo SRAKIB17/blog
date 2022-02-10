@@ -37,3 +37,15 @@ function mainIndex(){
     document.getElementById('articleBody').innerHTML = divPerArticle;
 }
 mainIndex()
+// category for top menu 
+
+for (const getCategory of articleArray) {
+    const getId = document.getElementById('category');
+    const li = document.createElement('li');
+    const a = document.createElement('a')
+    a.setAttribute('href', getCategory[0].category)
+    li.appendChild(a);
+    getId.appendChild(li);
+    a.innerText = getCategory[0].category
+    console.log(getCategory[0].category)    
+}
