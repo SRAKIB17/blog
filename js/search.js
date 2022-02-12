@@ -128,5 +128,6 @@ function resultReturn(){
     resultShow += `</table>`
     console.log(resultShow)
     document.getElementById('busy').innerHTML = resultShow;
+    return searchResult = [];
 }
 
